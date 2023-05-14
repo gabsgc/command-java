@@ -18,7 +18,7 @@ class RestauranteTest {
 
     @Test
     void devePrepararPedido() {
-        Comanda prepararPedido = new PrepacaoPedidoComanda(pedido);
+        Comanda prepararPedido = new PreparacaoPedidoComanda(pedido);
         restaurante.executarComanda(prepararPedido);
 
         assertEquals("Pedido preparado", pedido.getSituacao());

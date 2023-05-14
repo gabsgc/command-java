@@ -1,7 +1,7 @@
-public class PrepacaoPedidoComanda implements Comanda {
+public class PreparacaoPedidoComanda implements Comanda {
     private Pedido pedido;
 
-    public PrepacaoPedidoComanda(Pedido pedido) {
+    public PreparacaoPedidoComanda(Pedido pedido) {
         this.pedido = pedido;
     }
 
